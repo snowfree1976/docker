@@ -1,0 +1,43 @@
+★構築まで
+
+＜参考サイト＞
+https://qiita.com/t-iguchi/items/f9052d259cec7fe54a00
+
+■pip install django
+
+■django-admin startproject mysite
+
+■cd mysite
+
+■django-admin startapp myapp1
+
+
+
+
+
+★実行方法
+
+
+■実行
+python manage.py runserver
+
+■管理者ユーザ作成でエラーが出たとき
+python manage.py migrate
+
+■管理者ユーザ作成
+python manage.py createsuperuser
+
+
+
+
+★URL
+
+
+■管理画面URL
+http://localhost:8000/admin
+
+■サンプルページURL
+http://localhost:8000/myapp1
+
+
+
