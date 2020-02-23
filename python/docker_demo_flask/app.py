@@ -8,7 +8,7 @@ def index():
 
 @app.route('/<name>')
 def hello(name):
-    return render_template('hello.html', title='ŒÄ‚Ño‚µ‘¤‚Åƒ^ƒCƒgƒ‹İ’è', name=name)
+    return render_template('hello.html', title='å‘¼ã³å‡ºã—å´ã§ã‚¿ã‚¤ãƒˆãƒ«è¨­å®š', name=name)
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
